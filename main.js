@@ -308,12 +308,12 @@ function openingGame(){
 
       let x = CANVAS_W/2;
       //let y = 140;
-      con.fillText("⋆そば畑ゲーム⋆",x - 90,140);
-      con.fillText("－ 操作方法 －",x - 80,280);
-      con.fillText("PCの場合は → ← で左右に方言ばあさんが動きます",x - 230,320);
-      con.fillText("スマホの場合は、画面の右と左を触ると動きます",x - 220,360);
-      con.fillText("方言ばあさんが叫んで畑を守ります",x - 160,400);
-      con.fillText("クリック　または　タップ　ではじまります",x - 200,480);
+      con.fillText("⋆そば畑ゲーム⋆",x - 60,140);
+      con.fillText("－ 操作方法 －",x - 50,280);
+      con.fillText("PCの場合は → ← で左右に方言ばあさんが動きます",x - 185,320);
+      con.fillText("スマホの場合は、画面の右と左を触ると動きます",x - 180,360);
+      con.fillText("方言ばあさんが叫んで畑を守ります",x - 125,400);
+      con.fillText("クリック　または　タップ　ではじまります",x - 160,480);
 
       document.getElementById("can").onclick = function() {
         state=1;

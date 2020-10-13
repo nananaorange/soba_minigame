@@ -14,7 +14,7 @@ document.onkeyup = function(e){
 document.ontouchstart = function(e){
   //alert(e);
   const z = e.changedTouches[0];
-  if( z.clientX <= 380 ){
+  if( z.clientX <= 440 ){
     moveright = false;
     moveleft = true;
   } else {

@@ -12,7 +12,7 @@ const SMOOTHING = false;
 const GAME_SPEED = 1000/60;
 
 //画面サイズ
-const SCREEN_W = 320;
+const SCREEN_W = 260;
 const SCREEN_H = 460;
 
 //キャンバスサイズ
