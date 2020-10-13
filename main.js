@@ -1,4 +1,8 @@
 
+document.oncontextmenu = function () {return false;}
+document.getElementsByTagName('html')[0].oncontextmenu = function () {return false;}
+document.body.oncontextmenu = function () {return false;}
+
 //キャンバス
 let can = document.getElementById("can");
 let con = can.getContext("2d");
@@ -9,7 +13,7 @@ con.mozimageSmoothingEnabled = SMOOTHING;
 con.webkitimageSmoothingEnabled = SMOOTHING;
 con.msimageSmoothingEnabled = SMOOTHING;
 con.imageSmoothingEnabled = SMOOTHING;
-con.font = "20px 'Century Gothic'";
+con.font = "16px 'Century Gothic'";
 
 //フィールド（仮想画面）
 let vcan = document.createElement("canvas");
@@ -302,8 +306,6 @@ function openingGame(){
       can.style.backgroundColor = "pink";
       con.fillStyle = "#444444";
 
-      let s = "⋆そば畑ゲーム⋆";
-      let w = con.measureText(s).width;
       let x = CANVAS_W/2;
       //let y = 140;
       con.fillText("⋆そば畑ゲーム⋆",x - 90,140);
