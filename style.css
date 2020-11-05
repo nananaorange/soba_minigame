@@ -28,3 +28,11 @@ body {
   -webkit-touch-callout:none; // リンク長押しのポップアップを無効化
   -webkit-user-select:none; // テキスト長押しの選択ボックスを無効化
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  height: 50px;
+}
