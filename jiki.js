@@ -83,19 +83,19 @@ class Jiki{
       if(score>=0 && score<=49 )
       {
       //tama.push( new Tama(this.x+(6<<8), this.y-(10<<8), 0, -2000) );
-      tama.push( new Tama(2,this.x-(6<<4), this.y-(10<<4), 0, -2000) );//2
-      tama.push( new Tama(3,this.x+(8<<8), this.y-(5<<8), 200, -2000) );//3
-      tama.push( new Tama(1,this.x-(8<<8), this.y-(5<<8), -200, -2000) );//1
+      tama.push( new Tama(2,this.x-(6<<4), this.y-(10<<4), 0, -1200) );//2
+      tama.push( new Tama(3,this.x+(8<<8), this.y-(5<<8), 200, -1200) );//3
+      tama.push( new Tama(1,this.x-(8<<8), this.y-(5<<8), -200, -1200) );//1
       //tama.push( new Tama(this.x+(4<<8), this.y-(10<<8), 0, -2000) );
       }
 
       if(score>=50){
-      tama.push( new Tama(9,this.x+(6<<4), this.y-(10<<8), 0, -2000) );//4
+      tama.push( new Tama(9,this.x+(6<<4), this.y-(10<<8), 0, -1000) );//4
       //tama.push( new Tama(3,this.x-(6<<8), this.y-(10<<8), 0, -2000) );//3
-      tama.push( new Tama(10,this.x+(8<<8), this.y-(5<<8), 200, -2000) );//5
-      tama.push( new Tama(8,this.x-(8<<8), this.y-(5<<8), -200, -2000) );//2
-      tama.push( new Tama(11,this.x+(12<<8), this.y-(0<<8), 400, -2000) );//6
-      tama.push( new Tama(7,this.x-(12<<8), this.y-(0<<8), -400, -2000) );//1
+      tama.push( new Tama(10,this.x+(8<<8), this.y-(5<<8), 200, -1000) );//5
+      tama.push( new Tama(8,this.x-(8<<8), this.y-(5<<8), -200, -1000) );//2
+      tama.push( new Tama(11,this.x+(12<<8), this.y-(0<<8), 400, -1000) );//6
+      tama.push( new Tama(7,this.x-(12<<8), this.y-(0<<8), -400, -1000) );//1
       //tama.push( new Tama(this.x+(4<<8), this.y-(10<<8), 0, -2000) );
     }
 

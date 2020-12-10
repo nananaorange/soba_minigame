@@ -308,15 +308,27 @@ function openingGame(){
 
       let x = CANVAS_W/2;
       //let y = 140;
-      con.fillText("+.○⋆そば畑ゲーム⋆○.+",x - 80,100);
-      con.fillText("－ 操作方法 －",x - 50,240);
-      con.fillText("PCの場合は → ← で左右に方言ばあさんが動きます",x - 185,280);
-      con.fillText("スマホの場合は、画面の右と左を触ると動きます",x - 180,320);
-      con.fillText("方言ばあさんが叫んで畑を守ります",x - 125,360);
-      con.fillText("クリック　または　タップ　ではじまります",x - 160,460);
-      con.fillText("~不具合について~",x - 70,570);
-      con.fillText("iphonで遊んでいると、画面があおくなることが",x - 175,610);
-      con.fillText("ありますが、ゲームに支障ありません！",x - 150,650);
+      con.fillText("+.◦⋆そば畑ゲーム⋆◦.+",x - 80,80);
+      con.fillText("－ 操作方法 －",x - 50,160);
+      con.fillText("PCの場合は → ← で左右に方言ばあさんが動きます",x - 185,200);
+      con.fillText("スマホの場合は、画面の右と左を触ると動きます",x - 180,240);
+      con.fillText("方言ばあさんが叫んで畑を守ります",x - 125,280);
+      con.fillStyle = "#DB7093";
+      con.fillText("クリック　または　タップ　ではじまります",x - 160,360);
+      con.fillText("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",x - 170,120);
+      con.fillText("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",x - 170,320);
+      con.fillText("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",x - 170,400);
+      con.fillText("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",x - 170,550);
+      con.fillText("⚠スマホだと方言が少し見えにくいかもしれません⚠",x - 187,675);
+      con.fillStyle = "#444444";
+      con.fillText("~不具合について~",x - 70,440);
+      con.fillText("iphonで遊んでいると、画面があおくなることが",x - 175,480);
+      con.fillText("ありますが、ゲームに支障ありません！",x - 140,520);
+
+      con.fillText("★.*◦ ゲームに出てくる方言 ◦*.★",x - 120,580);
+      con.fillText("「 にしゃ 」",x - 47,610);
+      con.fillText("「 わさすんな 」",x - 62,640);
+
 
       document.getElementById("can").onclick = function() {
         state=1;
