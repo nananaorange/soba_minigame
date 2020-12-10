@@ -83,9 +83,9 @@ class Jiki{
       if(score>=0 && score<=49 )
       {
       //tama.push( new Tama(this.x+(6<<8), this.y-(10<<8), 0, -2000) );
-      tama.push( new Tama(2,this.x-(6<<4), this.y-(10<<4), 0, -1200) );//2
-      tama.push( new Tama(3,this.x+(8<<8), this.y-(5<<8), 200, -1200) );//3
-      tama.push( new Tama(1,this.x-(8<<8), this.y-(5<<8), -200, -1200) );//1
+      tama.push( new Tama(2,this.x-(6<<4), this.y-(10<<4), 0, -1100) );//2
+      tama.push( new Tama(3,this.x+(8<<8), this.y-(5<<8), 200, -1100) );//3
+      tama.push( new Tama(1,this.x-(8<<8), this.y-(5<<8), -200, -1100) );//1
       //tama.push( new Tama(this.x+(4<<8), this.y-(10<<8), 0, -2000) );
       }
 

@@ -15,7 +15,7 @@ class TekiMaster{
 let tekiMaster=[
   new TekiMaster( 0, 10, 10, 1), //0,いのしし
   new TekiMaster( 1, 10, 30, 1), //1,きじ
-  new TekiMaster( 2, 70, 2800, 100), //1,くま
+  new TekiMaster( 2, 70, 2400, 100), //1,くま
 ]
 
 //スプライトクラス
